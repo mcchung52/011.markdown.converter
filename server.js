@@ -1,5 +1,7 @@
 'use strict';
 
+var PORT = process.env.PORT || 3000;
+
 var express = require('express');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
@@ -22,4 +24,6 @@ app.post('/markdown', function(req, res) {
   res.send(string);
 });
 
-app.listen(3000);
+app.listen(PORT, function(){
+  console.log('Listening on port %s', PORT);
+});
