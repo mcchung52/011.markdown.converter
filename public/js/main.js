@@ -7,7 +7,7 @@ function init() {
     var mdtext = $('#markdown').val();
     $.post('/markdown', { input: mdtext })
     .done(function(data){
-      $('#html').append($.parseHTML(data));
+      $('#html').empty().append($.parseHTML(data));
     })
   });
 }
