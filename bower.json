@@ -1,0 +1,22 @@
+{
+  "name": "011.markdown.converter",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "mcchung52 <mcchung52@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mcchung52/011.markdown.converter",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
