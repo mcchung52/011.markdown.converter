@@ -3,10 +3,8 @@
   height: 600px;
 }
 .pane {
-  border: 1px solid black;
-  border-radius: 4px;
+  border: 1px solid gray;
   display: inline-block;
-  margin: 10px;
   min-width: 300px;
   min-height: 600px;
 }
