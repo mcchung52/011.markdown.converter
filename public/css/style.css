@@ -1,10 +1,16 @@
 #markdown {
   width: 300px;
   height: 600px;
+  /*display: inline-block;*/
 }
+/*#convert {
+  display: inline-block;
+  margin-bottom: 150%;
+  margin-left: 30px;
+}*/
 .pane {
   border: 1px solid gray;
-  display: inline-block;
+  /*display: inline-block;*/
   min-width: 300px;
   min-height: 600px;
 }
